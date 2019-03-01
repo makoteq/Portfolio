@@ -19,17 +19,7 @@ export default {
         { 
           id: 1, project: "makotek.pl",
           url: "//makotek.pl"
-         },
-        {
-          id: 2,
-          project: "onet",
-          url: "//onet.pl"
-        },
-        {
-          id: 3,
-          project: "superDuperProjekt",
-          url: "//facebook.com"
-        }
+         }
       ]
     }
   },
