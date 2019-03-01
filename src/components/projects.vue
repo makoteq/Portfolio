@@ -1,0 +1,49 @@
+<template>
+  <div>
+    <p class="click" @click="show">/My projects:</p>
+    <div v-show="isOpen">
+      <a :href="a.url" :key="a.id" target="_blank" v-for="a in projects">
+        <font-awesome-icon class="i" :icon="{ prefix: 'fas', iconName: 'arrow-right' }"/>{{ a.project }}
+        <br>
+      </a>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+      projects: [
+        { 
+          id: 1, project: "makotek.pl",
+          url: "//makotek.pl"
+         },
+        {
+          id: 2,
+          project: "onet",
+          url: "//onet.pl"
+        },
+        {
+          id: 3,
+          project: "superDuperProjekt",
+          url: "//facebook.com"
+        }
+      ]
+    }
+  },
+    methods: {
+    show: function() {
+      this.isOpen = !this.isOpen;
+    }
+  }
+};
+</script>
+
+<style skoped>
+.i{
+  margin-right:5px;
+  font-size: 0.8em;
+}
+</style>
