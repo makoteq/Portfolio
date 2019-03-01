@@ -1,5 +1,5 @@
 # portfolio
-link:https://makoteq.github.io
+https://makoteq.github.io
 ## Project setup
 ```
 yarn install
