@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <ImageNag />
-    <projects/>
     <aboutMe/>
+    <projects/>
     <contact/>
     <foot/>
   </div>

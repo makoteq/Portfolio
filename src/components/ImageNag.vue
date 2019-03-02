@@ -2,7 +2,7 @@
   <div class="con">
     <img height="100px" width="100px" src="../img/tesla.png" alt="me">
    <div>
-     <p>Hi my name is Makotek<font-awesome-icon class="i"  :icon="{ prefix: 'fa', iconName: 'smile' }" /></p>
+     <p>Hi, may I introduce myself?<font-awesome-icon class="i"  :icon="{ prefix: 'fa', iconName: 'smile' }" /></p>
      </div> 
   </div>
 </template>

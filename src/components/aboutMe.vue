@@ -2,8 +2,10 @@
   <div>
     <p class="click" @click="show">/About me:</p>
     <div v-show="isOpen">
-        <p>Hi my name is maciek</p>
-        <p>I from Poland where I going to primary school</p>
+        <p>My name is Maciej</p>
+        <p>I'm 14 years programer</p>
+        <p>At the moment I living in Poland</p>
+        <p>Currently I make front-end websites</p>
     </div>
   </div>
 </template>
