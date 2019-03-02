@@ -17,8 +17,9 @@ export default {
       isOpen: false,
       projects: [
         { 
-          id: 1, project: "makotek.pl",
-          url: "//makotek.pl"
+          id: 1,
+          project: "makotek.pl",
+          url: "http://makotek.pl"
          }
       ]
     }

@@ -25,7 +25,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 body{
-  margin:50px;
+  margin:5vh;
   margin-bottom:0;
   font-family: 'Roboto Mono', monospace;
   background-image: url('../assets/darkness.png');/*This pattern is downloaded from www.subtlepatterns.com*/
