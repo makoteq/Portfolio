@@ -3,9 +3,8 @@
     <p class="click" @click="show">/About me:</p>
     <div v-show="isOpen">
         <p>My name is Maciej</p>
-        <p>I'm 14 years programer</p>
-        <p>At the moment I living in Poland</p>
-        <p>Currently I make front-end websites</p>
+        <p>I'm 14 years programer ,currently I make front-end websites</p>
+        <p>I living in Poland</p>
     </div>
   </div>
 </template>
