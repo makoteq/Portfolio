@@ -1,6 +1,6 @@
 <template>
-  <div class="con">
-    <img height="100px" width="100px" src="../img/tesla.png" alt="me">
+  <div :style="{color:theme}" class="con">
+    <img  height="100px" width="100px" src="../img/tesla.png" alt="me">
    <div>
      <p>Hi, may I introduce myself?<font-awesome-icon class="i"  :icon="{ prefix: 'fa', iconName: 'smile' }" /></p>
      </div> 
@@ -9,8 +9,11 @@
 
 <script>
 export default {
-  name: "ImageNag"
-};
+  name: "ImageNag",
+  props:{
+    theme:String
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -18,6 +21,7 @@ export default {
 img {
   border: solid red;
   border-radius: 50%;
+
 }
 .con {
   width: 50%;

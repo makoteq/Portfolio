@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :style="{color:theme}">
     <p class="click" @click="show">/About me:</p>
     <div v-show="isOpen">
         <p>My name is Maciej</p>
@@ -21,7 +21,10 @@ export default {
     show: function() {
       this.isOpen = !this.isOpen
     }
-}
+},
+  props:{
+    theme:String
+  }
 }
 </script>
 <style >
