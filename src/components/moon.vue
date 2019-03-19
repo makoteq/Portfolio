@@ -1,10 +1,12 @@
 <template>
+<div>
     <font-awesome-icon
       :style="{color:theme}"
       @click="changeTheme"
       class="iconMoon"
       :icon="{ prefix: 'fas', iconName: 'cloud-sun' }"
     />
+</div>
 </template>
 
 <script>

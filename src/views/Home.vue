@@ -60,6 +60,7 @@ div p{
   font-family: 'Roboto Mono', monospace;
   margin:8px;
   text-align: center;
+  transition:0.2s linear;
 }
 
 .click{
@@ -68,5 +69,6 @@ div p{
 }
 a{
   text-decoration:none;
+  transition:0.2s linear;
 }
 </style>
