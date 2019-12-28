@@ -1,0 +1,12 @@
+language: node_js
+  -2.6.6
+cache: npm
+install:
+  - npm -v
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
