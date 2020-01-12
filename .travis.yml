@@ -1,5 +1,5 @@
 language: node_js
-  -2.6.6
+  -node
   cache: yarn
 install:
   - yarn install
